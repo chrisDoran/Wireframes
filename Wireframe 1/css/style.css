@@ -1,0 +1,99 @@
+/*  CSS FILE  */
+.mainWrapper{
+	min-height: 920px;
+}
+.headers{
+	min-height:60px;
+	text-align: center;
+	font-family: Helvetica;
+	font-weight: bold;
+	color: #A6A6A6;
+	font-size: 16px;
+}
+
+.borders{
+	border:1px solid black;
+}
+
+
+}
+.header{
+}
+.myNav{
+	padding-left: 50px;
+	background-color:#67B2FF;
+	color: #A6A6A6;
+}
+
+.btn-danger{
+	background-color:#A6A6A6;
+	color: #A6A6A6;
+}
+
+.button{
+	margin-bottom: 10px;
+	height: 150px;
+}
+
+
+@media only screen and (max-width : 1980px) {
+		.carousel-inner{
+			height: 700px;
+		}
+		.carousel-control{
+			height: 700px;
+		}
+
+
+    }
+
+@media only screen and (max-width : 1200px) {
+		.carousel-inner{
+			height: 600px;
+		}
+		.carousel-control{
+			height: 600px;
+		}
+
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+    	.carousel-inner{
+			height: 500px;
+		}
+		.carousel-control{
+			height: 500px;
+		}
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+    	.carousel-inner{
+			height: 400px;
+		}
+		.carousel-control{
+			height: 400px;
+		}
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+		.carousel-inner{
+			height: 300px;
+		}	
+		.carousel-control{
+			height: 300px;
+		}	
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        .carousel-inner{
+			height: 200px;
+		}
+		.carousel-control{
+			height: 200px;
+		}
+    }

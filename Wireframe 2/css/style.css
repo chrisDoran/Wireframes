@@ -1,0 +1,63 @@
+.header{
+	background-color: grey;
+	text-align: center;
+	font-family: Helvetica;
+	font-weight: bold;
+	color: #A6A6A6;
+	font-size: 16px;
+	height:8%;
+}
+.nav a {
+  
+  color: #5a5a5a;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+  padding-top: 30px;
+}
+
+.borders{	
+	border:1px solid black;
+}
+
+.about{
+	margin-left: 20px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+	height: 30%;
+}
+
+.jumbo{
+	margin-left: 2px;
+	margin-bottom: 10px;
+}
+
+.image{
+	margin-bottom: 10px;
+	height: 38%;
+}
+
+.subscription{
+	text-align: center;
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+
+.content{
+	height: 300px;
+}
+
+.bottom{
+	margin-top: 10px;
+	height: 25px;
+	background-color: grey;
+	text-align: center;
+	font-family: Helvetica;
+}
